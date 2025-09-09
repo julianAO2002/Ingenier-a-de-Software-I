@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    { "id": "u1", "nombre": "Juan Pérez", "email": "juan.perez@mail.com" },
+    { "id": "u2", "nombre": "Ana Gómez", "email": "ana.gomez@mail.com" }
+  ],
+  "clientes": [
+    { "id": "c1", "nombre": "Empresa X", "contacto": "soporte@empresa.com" },
+    { "id": "c2", "nombre": "Consultora Y", "contacto": "contacto@consultoray.com" }
+  ],
+  "tickets": [
+    { "id": "t1", "clienteId": "c1", "descripcion": "El sistema no permite iniciar sesión", "estado": "abierto" },
+    { "id": "t2", "clienteId": "c2", "descripcion": "Error en la facturación", "estado": "en proceso" }
+  ],
+  "notificaciones": [
+    { "usuarioId": "u1", "mensaje": "El ticket t1 ha cambiado su estado a cerrado" }
+  ]
+}
+
